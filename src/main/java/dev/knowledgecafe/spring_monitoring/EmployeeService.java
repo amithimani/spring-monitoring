@@ -25,7 +25,7 @@ public class EmployeeService {
 
     public String getEmployeeName(Integer employeeID){
         //Adding sleep
-        int sleepTime = new Random().nextInt(100);// -- Uncomment the line if you want to add random delay
+        int sleepTime = new Random().nextInt(500);// -- Uncomment the line if you want to add random delay
 
         try {
             TimeUnit.MILLISECONDS.sleep(sleepTime);
